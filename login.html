@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form">
+            <span class="title">Login</span>  
+            <form onsubmit="loginFunc()" action="" autocomplete="off">
+                  
+            
+                <div class="input-field">
+                    <label for="username"></label> <br>
+                    <input type="text" placeholder="Ingresá tu usuario" name="username" id="username">
+                    <i class="uil uil-user"></i></i> <br>
+                </div>
+
+                <div class="input-field">
+                    <label for="password"></label> <br>
+                    <input type="password" placeholder="Ingresá tu contraseña" name="password" id="password">
+                    <i class="uil uil-lock-alt"></i>             
+                </div> <br>
+
+                <button type="submit">Login</button>
+                <p id="result"></p>
+
+            </form>          
+            <div class="login-signup">
+                <span class="text">No estás registrado?
+                    <a href="registro.html">Registrate</a>
+                </span>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
